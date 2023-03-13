@@ -1,6 +1,3 @@
-import React from "react";
-import { AiOutlineDelete } from "react-icons/ai"
-
 
 export default function Sidebar(props) {
   const noteElements = props.notes.map((note, index) => (
